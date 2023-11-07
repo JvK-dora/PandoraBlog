@@ -1,10 +1,29 @@
 .head1{
-    background-color: rgb(237, 190, 225);
+    background-color: rgb(182, 109, 20);
     background-image: url(images/bg1.jpg);
-    background-position: top left;
-    box-shadow: 1px 1px 2px #e5f068;
+    box-shadow: 1px 1px 2px #53544d;
 }
-.head1 h1,p{
+.head1 h1{
     font-family: 'Bricolage Grotesque', sans-serif;
-    text-shadow: 2px 2px 2px #000;    
+    text-shadow: 1px 1px 2px #000;    
+}
+
+nav{
+    background-image: linear-gradient(rgb(249, 255, 249),rgb(133, 133, 118));
+    box-shadow: 1px 1px 2px #d3cdcd;
+}
+ul .active{
+    background-color: rgb(102, 109, 100)!important;
+}
+
+.post h6{
+    margin-left: 40px;
+    font-size: 10px;
+}
+.story{
+    box-shadow: 1px 1px 2px rgb(119, 119, 118);
+    padding:10px;
+}
+.story i{
+    background-image: linear-gradient(rgb(150, 164, 148),rgb(248, 248, 206));
 }
